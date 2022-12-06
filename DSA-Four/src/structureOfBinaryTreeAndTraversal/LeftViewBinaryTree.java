@@ -13,8 +13,8 @@ import java.util.Queue;
 //		 2    3
 //		/ \  / \
 //		4   5 6  7
-//		/
-//		8 
+//	   /
+//	  8 
 
 public class LeftViewBinaryTree {
 	public ArrayList<Integer> solve(TreeNode A) {
