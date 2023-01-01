@@ -49,11 +49,7 @@ public class RunningMedian {
 
 	public static void main(String[] args) {
 		ArrayList<Integer> arr= new ArrayList<>(Arrays.asList(1,2,5,4,3));
-		ArrayList<Integer> ans=solve(arr);
-		for(int i=0;i<ans.size();i++ ) {
-			System.out.print(ans.get(i)+" ");
-		}
-
+		System.out.println(solve(arr));
 	}
 
 }
