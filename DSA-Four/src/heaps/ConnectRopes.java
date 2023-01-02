@@ -8,9 +8,10 @@ import java.util.PriorityQueue;
 //		Find and return the minimum cost to connect these ropes into one rope.
 //				Input :							Output:
 //					 A = [1, 2, 3, 4, 5]			33
+
 public class ConnectRopes {
 	public static int solve(int[] A) {
-		PriorityQueue<Integer> minh = new PriorityQueue<>(); // created minheap
+		PriorityQueue<Integer> minh = new PriorityQueue<>(); // created minimum heap
 
 		for (int i = 0; i < A.length; i++) { // added all elements in MinHeap
 			minh.add(A[i]);
